@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.cabecalho {
+    padding: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .conteudo {
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteudo h2 {
+    font-size: 26pt;
+    margin-bottom: 25px;
+}
+
+.conteudo p {
+    line-height: 25px;
+}
+
+button {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    font-size: 14pt;
+    padding: 15px;
+    width: 160px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 0.3em black;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.icon{
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.icon:hover {
+    color:hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.fa-facebook-f {
+    width: 45px;
+    
+}
