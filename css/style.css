@@ -76,3 +76,43 @@ footer {
     width: 45px;
     
 }
+
+@media (max-width: 800px) {
+    
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .imagem {
+        text-align: center;
+    }
+
+    img {
+        max-width: 500px;
+       
+    }
+
+    main .conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .botao {
+        margin-top: 50px;
+    }
+
+    footer {
+        display: flex;
+        margin-top: 60px;
+        justify-content: center;
+    }
+    
+}
